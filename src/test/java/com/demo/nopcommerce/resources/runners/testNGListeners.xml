@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="No Commerce Test" verbose="1">
+    <listeners>
+        <listener class-name="com.demo.nopcommerce.listener.Listeners"></listener>
+    </listeners>
+    <test name="HomePage Test">
+        <classes>
+            <class name="com.demo.nopcommerce.testsuite.HomePageTest"/>
+        </classes>
+    </test>
+    <test name="Registration Test">
+        <classes>
+            <class name="com.demo.nopcommerce.testsuite.RegistrationTest"/>
+        </classes>
+    </test>
+    <test name="Login Test">
+        <classes>
+            <class name="com.demo.nopcommerce.testsuite.LoginTest"/>
+        </classes>
+    </test>
+    <test name="Computer Test">
+        <classes>
+            <class name="com.demo.nopcommerce.testsuite.ComputerTest"/>
+
+        </classes>
+    </test>
+</suite>
+
